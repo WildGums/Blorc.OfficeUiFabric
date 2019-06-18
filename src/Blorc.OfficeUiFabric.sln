@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29006.145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7079574F-37E3-4D0E-8A5C-E6519D6ED806}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{BD0C13A5-CC71-453C-967D-4C0ACAEC14E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{30653A7B-2615-4B66-AC93-1AF201F9F078}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{1C254D62-150A-4F78-AA50-44EF726EB9E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A5EED9E5-5EA5-4999-BA83-0C86963140F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blorc.OfficeUiFabric", "Blorc.OfficeUiFabric\Blorc.OfficeUiFabric.csproj", "{3F98574D-2E78-4797-A209-C62B099A00BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blorc.OfficeUiFabric.Example", "Blorc.OfficeUiFabric.Example\Blorc.OfficeUiFabric.Example.csproj", "{0F52413D-FA6A-4D4E-AAD4-7D3AF665C442}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blorc.OfficeUiFabric.Tests", "Blorc.OfficeUiFabric.Tests\Blorc.OfficeUiFabric.Tests.csproj", "{F69FCAF9-FB12-4F8F-94B3-81ACC21F0A9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F98574D-2E78-4797-A209-C62B099A00BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F98574D-2E78-4797-A209-C62B099A00BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F98574D-2E78-4797-A209-C62B099A00BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F98574D-2E78-4797-A209-C62B099A00BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F52413D-FA6A-4D4E-AAD4-7D3AF665C442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F52413D-FA6A-4D4E-AAD4-7D3AF665C442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F52413D-FA6A-4D4E-AAD4-7D3AF665C442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F52413D-FA6A-4D4E-AAD4-7D3AF665C442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69FCAF9-FB12-4F8F-94B3-81ACC21F0A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69FCAF9-FB12-4F8F-94B3-81ACC21F0A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69FCAF9-FB12-4F8F-94B3-81ACC21F0A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69FCAF9-FB12-4F8F-94B3-81ACC21F0A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30653A7B-2615-4B66-AC93-1AF201F9F078} = {7079574F-37E3-4D0E-8A5C-E6519D6ED806}
+		{1C254D62-150A-4F78-AA50-44EF726EB9E2} = {7079574F-37E3-4D0E-8A5C-E6519D6ED806}
+		{A5EED9E5-5EA5-4999-BA83-0C86963140F6} = {7079574F-37E3-4D0E-8A5C-E6519D6ED806}
+		{3F98574D-2E78-4797-A209-C62B099A00BE} = {30653A7B-2615-4B66-AC93-1AF201F9F078}
+		{0F52413D-FA6A-4D4E-AAD4-7D3AF665C442} = {1C254D62-150A-4F78-AA50-44EF726EB9E2}
+		{F69FCAF9-FB12-4F8F-94B3-81ACC21F0A9A} = {A5EED9E5-5EA5-4999-BA83-0C86963140F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64338BCD-DCD9-4652-8D8D-68955EBF46CB}
+	EndGlobalSection
+EndGlobal
