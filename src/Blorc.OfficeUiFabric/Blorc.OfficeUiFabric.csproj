@@ -35,7 +35,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Blorc.Core" Version="1.0.0-alpha0320" />
+    <PackageReference Include="Blorc.Core" Version="1.0.0-alpha0366" />
     <PackageReference Include="Catel.Analyzers" Version="1.1.0-alpha0146" PrivateAssets="all" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Browser" Version="3.0.0-preview5-19227-01" />
   </ItemGroup>
